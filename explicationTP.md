@@ -106,6 +106,9 @@ Il est important de préciser la classe qu'on veut exécuter, ici 'ventesTotal' 
 
 **Fichier de sortie :** 
 
+Il faut utiliser la commande  `hadoop fs -tail
+output2/part-r-00000` car le fichier de sortie se trouve bien dans le cluster HDFS.
+
 ![img_5.png](img_5.png)
 
 Toutes les sommes ont bien été calculées
